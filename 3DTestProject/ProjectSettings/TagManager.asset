@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Spawner
+  - Sphere
+  - Wall
+  - Capsule
   layers:
   - Default
   - TransparentFX
