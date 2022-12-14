@@ -8,6 +8,8 @@ TagManager:
   - Sphere
   - Wall
   - Capsule
+  - ScoreController
+  - SpawnerController
   layers:
   - Default
   - TransparentFX
