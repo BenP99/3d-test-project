@@ -181,6 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &56327907
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &210771639
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,6 +299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &216040885
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &223710657
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &234260506
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +476,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
+--- !u!1 &256357895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 256357899}
+  - component: {fileID: 256357898}
+  - component: {fileID: 256357897}
+  - component: {fileID: 256357896}
+  m_Layer: 0
+  m_Name: Edge (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &256357896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256357895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &256357897
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256357895}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c1e31fc4dfc63443a04057f5c99cc5e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &256357898
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256357895}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &256357899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256357895}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.2733, y: 1.1133, z: 10.44}
+  m_LocalScale: {x: 1, y: 1.5666, z: 24.071598}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 108
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &265715951
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &266740220
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &311722362
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,6 +748,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
+--- !u!1 &340342286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340342290}
+  - component: {fileID: 340342289}
+  - component: {fileID: 340342288}
+  - component: {fileID: 340342287}
+  m_Layer: 0
+  m_Name: Edge (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &340342287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340342286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &340342288
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340342286}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c1e31fc4dfc63443a04057f5c99cc5e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &340342289
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340342286}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &340342290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340342286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.81, y: 1.1133, z: 0.059}
+  m_LocalScale: {x: 1, y: 1.5666, z: 19.767176}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 107
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &360829883
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &361634698
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,6 +961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &387152586
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +1020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &389170820
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,6 +1079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &414260795
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,6 +1138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &420890036
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,6 +1197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &429108370
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,6 +1256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &485144924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,6 +1315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &491852283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1374,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
+--- !u!1 &515863491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 515863495}
+  - component: {fileID: 515863494}
+  - component: {fileID: 515863493}
+  - component: {fileID: 515863492}
+  m_Layer: 0
+  m_Name: Edge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &515863492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515863491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &515863493
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515863491}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c1e31fc4dfc63443a04057f5c99cc5e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &515863494
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515863491}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &515863495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515863491}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.29, y: 1.1133, z: 0.059}
+  m_LocalScale: {x: 1, y: 1.5666, z: 19.767176}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 106
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &524497219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &575916585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +1587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &582668396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,6 +1646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &588803847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,6 +1705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &592394211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,6 +1736,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+  lvl: 0
+  lastShapeCollected: 
 --- !u!4 &592394213
 Transform:
   m_ObjectHideFlags: 0
@@ -1501,6 +1810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &627016889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,6 +1869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &645963041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &647463443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,6 +1987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &660365422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,6 +2046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &661724420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,6 +2105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &663914309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,6 +2164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &690912092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,6 +2223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2058,6 +2375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &730668897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,6 +2434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &810479250
 GameObject:
   m_ObjectHideFlags: 0
@@ -2174,6 +2493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &850223196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,6 +2552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &887961304
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,6 +2611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &955011394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,6 +2812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &972662621
 GameObject:
   m_ObjectHideFlags: 0
@@ -2547,6 +2871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1003965445
 GameObject:
   m_ObjectHideFlags: 0
@@ -2605,6 +2930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1004662587
 GameObject:
   m_ObjectHideFlags: 0
@@ -2663,6 +2989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1015990310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2721,6 +3048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1056001805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2779,6 +3107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1069821487
 GameObject:
   m_ObjectHideFlags: 0
@@ -2912,7 +3241,10 @@ MonoBehaviour:
   shapes:
   - {fileID: 5290946127583951929, guid: 9fdb4436cf8ee024abcca81a7f489995, type: 3}
   - {fileID: 1739840685835511909, guid: 18378c7e709697e43abbf2501797b92b, type: 3}
-  objectSpawned: 0
+  spawnShape: 0
+  spawnCount: 0
+  spawnedShapes: []
+  firstShapeSpawned: 0
 --- !u!4 &1069821489
 Transform:
   m_ObjectHideFlags: 0
@@ -2985,6 +3317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1086674329
 GameObject:
   m_ObjectHideFlags: 0
@@ -3043,6 +3376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1107729961
 GameObject:
   m_ObjectHideFlags: 0
@@ -3101,6 +3435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1135498406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3159,6 +3494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1148720687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3217,6 +3553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1150117257
 GameObject:
   m_ObjectHideFlags: 0
@@ -3275,6 +3612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1161488574
 GameObject:
   m_ObjectHideFlags: 0
@@ -3333,6 +3671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1166159948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,6 +3730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1215755827
 GameObject:
   m_ObjectHideFlags: 0
@@ -3449,6 +3789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1218966261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3507,6 +3848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1228691633
 GameObject:
   m_ObjectHideFlags: 0
@@ -3565,6 +3907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1269233257
 GameObject:
   m_ObjectHideFlags: 0
@@ -3623,6 +3966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1271719569
 GameObject:
   m_ObjectHideFlags: 0
@@ -3681,6 +4025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1275967511
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,6 +4084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1311913787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3797,6 +4143,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
+--- !u!1 &1312194262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312194266}
+  - component: {fileID: 1312194265}
+  - component: {fileID: 1312194264}
+  - component: {fileID: 1312194263}
+  m_Layer: 0
+  m_Name: Edge (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1312194263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312194262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1312194264
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312194262}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c1e31fc4dfc63443a04057f5c99cc5e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1312194265
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312194262}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1312194266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312194262}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.27, y: 1.1133, z: -10.32}
+  m_LocalScale: {x: 1, y: 1.5666, z: 24.071598}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 109
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1316944541
 GameObject:
   m_ObjectHideFlags: 0
@@ -3855,6 +4297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1354177384
 GameObject:
   m_ObjectHideFlags: 0
@@ -3913,6 +4356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1357700867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3971,6 +4415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1363305366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4124,6 +4569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1385230519
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,6 +4628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1425457213
 GameObject:
   m_ObjectHideFlags: 0
@@ -4240,6 +4687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1427644303
 GameObject:
   m_ObjectHideFlags: 0
@@ -4298,6 +4746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1441559032
 GameObject:
   m_ObjectHideFlags: 0
@@ -4356,6 +4805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1451557827
 GameObject:
   m_ObjectHideFlags: 0
@@ -4414,6 +4864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1479531261
 GameObject:
   m_ObjectHideFlags: 0
@@ -4472,6 +4923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1481079854
 GameObject:
   m_ObjectHideFlags: 0
@@ -4530,6 +4982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1486302493
 GameObject:
   m_ObjectHideFlags: 0
@@ -4588,6 +5041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1486450861
 GameObject:
   m_ObjectHideFlags: 0
@@ -4646,6 +5100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1496817433
 GameObject:
   m_ObjectHideFlags: 0
@@ -4704,6 +5159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1522689228
 GameObject:
   m_ObjectHideFlags: 0
@@ -4762,6 +5218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1532789757
 GameObject:
   m_ObjectHideFlags: 0
@@ -4820,6 +5277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1543496459
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,6 +5336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1543542113
 GameObject:
   m_ObjectHideFlags: 0
@@ -4936,6 +5395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1548480602
 GameObject:
   m_ObjectHideFlags: 0
@@ -4994,6 +5454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1558439309
 GameObject:
   m_ObjectHideFlags: 0
@@ -5052,6 +5513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1566501179
 GameObject:
   m_ObjectHideFlags: 0
@@ -5110,6 +5572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1594750669
 GameObject:
   m_ObjectHideFlags: 0
@@ -5168,6 +5631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1604634119
 GameObject:
   m_ObjectHideFlags: 0
@@ -5226,6 +5690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1605105025
 GameObject:
   m_ObjectHideFlags: 0
@@ -5284,6 +5749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1623173558
 GameObject:
   m_ObjectHideFlags: 0
@@ -5342,6 +5808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1637746223
 GameObject:
   m_ObjectHideFlags: 0
@@ -5400,6 +5867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1650036490
 GameObject:
   m_ObjectHideFlags: 0
@@ -5458,6 +5926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1677992514
 GameObject:
   m_ObjectHideFlags: 0
@@ -5516,6 +5985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1712051228
 GameObject:
   m_ObjectHideFlags: 0
@@ -5574,6 +6044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1719312978
 GameObject:
   m_ObjectHideFlags: 0
@@ -5632,6 +6103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1728540170
 GameObject:
   m_ObjectHideFlags: 0
@@ -5690,6 +6162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1738133338
 GameObject:
   m_ObjectHideFlags: 0
@@ -5748,6 +6221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1760456598
 GameObject:
   m_ObjectHideFlags: 0
@@ -5806,6 +6280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1777665037
 GameObject:
   m_ObjectHideFlags: 0
@@ -5864,6 +6339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1795305731
 GameObject:
   m_ObjectHideFlags: 0
@@ -5922,6 +6398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1805306017
 GameObject:
   m_ObjectHideFlags: 0
@@ -5980,6 +6457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &1843672208
 GameObject:
   m_ObjectHideFlags: 0
@@ -6038,6 +6516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &2032737233
 GameObject:
   m_ObjectHideFlags: 0
@@ -6096,6 +6575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &2033515864
 GameObject:
   m_ObjectHideFlags: 0
@@ -6154,6 +6634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &2043360384
 GameObject:
   m_ObjectHideFlags: 0
@@ -6212,6 +6693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &2058356944
 GameObject:
   m_ObjectHideFlags: 0
@@ -6397,6 +6879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &2092488965
 GameObject:
   m_ObjectHideFlags: 0
@@ -6455,6 +6938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
 --- !u!1 &2136129560
 GameObject:
   m_ObjectHideFlags: 0
@@ -6513,3 +6997,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
+  shapeSpawned: 0
