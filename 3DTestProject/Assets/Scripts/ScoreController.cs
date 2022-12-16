@@ -6,10 +6,12 @@ public class ScoreController : MonoBehaviour
 {
     public int score;
     public int lvl;
+    public int shapesInteracted;
     public string lastShapeCollected;
 
     void Start() {
         score = 0;
+        shapesInteracted = 0;
         lvl = 1;
         lastShapeCollected = "";
     }
@@ -24,6 +26,10 @@ public class ScoreController : MonoBehaviour
         }  else if(score >= 300) {
             lvl = 4;
         }
+    }
+
+    public void AddInteraction() {
+        shapesInteracted++;
     }
 
     public void AddScore(int amount) {

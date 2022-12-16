@@ -52,6 +52,7 @@ public class ScoreObjects : MonoBehaviour
             }
         }
 
+        scoreController.AddInteraction();
         spawnController.RespawnShapes();
         Destroy(this.gameObject);
     }
