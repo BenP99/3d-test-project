@@ -8,17 +8,18 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
     private Vector3 moveInput;
     private Vector3 moveVelocity;
+    public MenuController mc;
 
     void Update() {
-        //Input
-        moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
-
-        //Multiply by speed to determine how fast the player should be moving
-        moveVelocity = moveInput * moveSpeed;
+        if(mc.pause == false) {
+            moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
+            moveVelocity = moveInput * moveSpeed;
+        }
     }
 
     void FixedUpdate() {
-        //Set the players velocity so the player can move
-        rb.velocity = moveVelocity;
+        if(mc.pause == false) {
+            rb.velocity = moveVelocity;
+        }
     }
 }

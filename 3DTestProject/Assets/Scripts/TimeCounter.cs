@@ -5,15 +5,11 @@ using UnityEngine;
 public class TimeCounter : MonoBehaviour
 {
     public float time;
-    public bool stopCount;
-
-    void Start() {
-        stopCount = false;
-    }
+    public MenuController mc;
 
     void Update()
     {
-        if(stopCount == false) {
+        if(mc.pause == false) {
             time += Time.deltaTime;
         }
     }

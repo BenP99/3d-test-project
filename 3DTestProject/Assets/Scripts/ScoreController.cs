@@ -33,11 +33,15 @@ public class ScoreController : MonoBehaviour
     }
 
     public void AddScore(int amount) {
-        score = score + amount;
+        if((score + amount) < 400 && score < 400) {
+            score = score + amount;
+        } else {
+            score = 400;
+        }
     }
 
     public void MinusScore(int amount) {
-        if(score > 0) {
+        if((score - amount) > 0 && score > 0) {
             score = score - amount;
         } else {
             score = 0;
