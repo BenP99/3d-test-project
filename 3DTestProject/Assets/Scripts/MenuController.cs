@@ -32,4 +32,9 @@ public class MenuController : MonoBehaviour
     public void MainMenu() {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void RestartLvl() {
+        Scene lvl = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(lvl.name);
+    }
 }
