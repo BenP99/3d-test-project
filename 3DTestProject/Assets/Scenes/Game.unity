@@ -182,6 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &56327907
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,6 +242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &62642532
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,6 +693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &216040885
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &223710657
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,6 +813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &234260506
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &256357895
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &266740220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,6 +1088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &286571813
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &340342286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,6 +1382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &361634698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &387152586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,6 +1502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &389170820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,6 +1562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &414260795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,6 +1622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &420890036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,6 +1682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &429108370
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,6 +1742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &485144924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1786,6 +1802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &491852283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,6 +1862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &515863491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,6 +2017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &542931653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,6 +2178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &582668396
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,6 +2238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &588803847
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,6 +2298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &592394211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,6 +2405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &627016889
 GameObject:
   m_ObjectHideFlags: 0
@@ -2442,6 +2465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &645963041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2501,6 +2525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &647463443
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,6 +2585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &660365422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,6 +2645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &661724420
 GameObject:
   m_ObjectHideFlags: 0
@@ -2678,6 +2705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &663914309
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,6 +2765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &690912092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2796,6 +2825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,6 +2978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &730668897
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,6 +3038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &810479250
 GameObject:
   m_ObjectHideFlags: 0
@@ -3066,6 +3098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &850223196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3125,6 +3158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &887961304
 GameObject:
   m_ObjectHideFlags: 0
@@ -3184,6 +3218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &955011394
 GameObject:
   m_ObjectHideFlags: 0
@@ -3243,6 +3278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,6 +3421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &972662621
 GameObject:
   m_ObjectHideFlags: 0
@@ -3444,6 +3481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1003965445
 GameObject:
   m_ObjectHideFlags: 0
@@ -3503,6 +3541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1004662587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,6 +3601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1015990310
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,6 +3661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1056001805
 GameObject:
   m_ObjectHideFlags: 0
@@ -3680,6 +3721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1064045299
 GameObject:
   m_ObjectHideFlags: 0
@@ -3892,8 +3934,10 @@ MonoBehaviour:
   shapes:
   - {fileID: 5290946127583951929, guid: 9fdb4436cf8ee024abcca81a7f489995, type: 3}
   - {fileID: 1739840685835511909, guid: 18378c7e709697e43abbf2501797b92b, type: 3}
+  cube: {fileID: 5567703889795706490, guid: a4bbb871cacc068449d30606026a6261, type: 3}
   spawnShape: 0
   spawnCount: 0
+  time: 10
   spawnedShapes: []
   firstShapeSpawned: 0
 --- !u!4 &1069821489
@@ -3969,6 +4013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1086674329
 GameObject:
   m_ObjectHideFlags: 0
@@ -4028,6 +4073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1107729961
 GameObject:
   m_ObjectHideFlags: 0
@@ -4087,6 +4133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1135498406
 GameObject:
   m_ObjectHideFlags: 0
@@ -4146,6 +4193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1148720687
 GameObject:
   m_ObjectHideFlags: 0
@@ -4205,6 +4253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1150117257
 GameObject:
   m_ObjectHideFlags: 0
@@ -4264,6 +4313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1161488574
 GameObject:
   m_ObjectHideFlags: 0
@@ -4323,6 +4373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1163746928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4461,6 +4512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1215755827
 GameObject:
   m_ObjectHideFlags: 0
@@ -4520,6 +4572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1218966261
 GameObject:
   m_ObjectHideFlags: 0
@@ -4579,6 +4632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1228691633
 GameObject:
   m_ObjectHideFlags: 0
@@ -4638,6 +4692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1237222269
 GameObject:
   m_ObjectHideFlags: 0
@@ -4742,6 +4797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1271719569
 GameObject:
   m_ObjectHideFlags: 0
@@ -4801,6 +4857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1275967511
 GameObject:
   m_ObjectHideFlags: 0
@@ -4860,6 +4917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1311913787
 GameObject:
   m_ObjectHideFlags: 0
@@ -4919,6 +4977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1312194262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5073,6 +5132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1354177384
 GameObject:
   m_ObjectHideFlags: 0
@@ -5132,6 +5192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1357700867
 GameObject:
   m_ObjectHideFlags: 0
@@ -5191,6 +5252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1363305366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5345,6 +5407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1385230519
 GameObject:
   m_ObjectHideFlags: 0
@@ -5404,6 +5467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1425457213
 GameObject:
   m_ObjectHideFlags: 0
@@ -5463,6 +5527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1427644303
 GameObject:
   m_ObjectHideFlags: 0
@@ -5522,6 +5587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1441559032
 GameObject:
   m_ObjectHideFlags: 0
@@ -5581,6 +5647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1451557827
 GameObject:
   m_ObjectHideFlags: 0
@@ -5640,6 +5707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1475190110
 GameObject:
   m_ObjectHideFlags: 0
@@ -5800,6 +5868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1481079854
 GameObject:
   m_ObjectHideFlags: 0
@@ -5859,6 +5928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1486302493
 GameObject:
   m_ObjectHideFlags: 0
@@ -5918,6 +5988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1486450861
 GameObject:
   m_ObjectHideFlags: 0
@@ -5977,6 +6048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1496817433
 GameObject:
   m_ObjectHideFlags: 0
@@ -6036,6 +6108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1522689228
 GameObject:
   m_ObjectHideFlags: 0
@@ -6095,6 +6168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1532789757
 GameObject:
   m_ObjectHideFlags: 0
@@ -6154,6 +6228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1543496459
 GameObject:
   m_ObjectHideFlags: 0
@@ -6213,6 +6288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1543542113
 GameObject:
   m_ObjectHideFlags: 0
@@ -6272,6 +6348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1548480602
 GameObject:
   m_ObjectHideFlags: 0
@@ -6331,6 +6408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1558439309
 GameObject:
   m_ObjectHideFlags: 0
@@ -6390,6 +6468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1566501179
 GameObject:
   m_ObjectHideFlags: 0
@@ -6449,6 +6528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1594750669
 GameObject:
   m_ObjectHideFlags: 0
@@ -6508,6 +6588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1604634119
 GameObject:
   m_ObjectHideFlags: 0
@@ -6567,6 +6648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1605105025
 GameObject:
   m_ObjectHideFlags: 0
@@ -6626,6 +6708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1623173558
 GameObject:
   m_ObjectHideFlags: 0
@@ -6685,6 +6768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1637746223
 GameObject:
   m_ObjectHideFlags: 0
@@ -6744,6 +6828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1650036490
 GameObject:
   m_ObjectHideFlags: 0
@@ -6803,6 +6888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1677992514
 GameObject:
   m_ObjectHideFlags: 0
@@ -6862,6 +6948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1694026972
 GameObject:
   m_ObjectHideFlags: 0
@@ -7000,6 +7087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1719312978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7059,6 +7147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1728540170
 GameObject:
   m_ObjectHideFlags: 0
@@ -7118,6 +7207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1738133338
 GameObject:
   m_ObjectHideFlags: 0
@@ -7177,6 +7267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1760456598
 GameObject:
   m_ObjectHideFlags: 0
@@ -7236,6 +7327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1777665037
 GameObject:
   m_ObjectHideFlags: 0
@@ -7295,6 +7387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1795305731
 GameObject:
   m_ObjectHideFlags: 0
@@ -7354,6 +7447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1805306017
 GameObject:
   m_ObjectHideFlags: 0
@@ -7413,6 +7507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1843672208
 GameObject:
   m_ObjectHideFlags: 0
@@ -7472,6 +7567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &1864293037
 GameObject:
   m_ObjectHideFlags: 0
@@ -7676,6 +7772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &2033515864
 GameObject:
   m_ObjectHideFlags: 0
@@ -7735,6 +7832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &2038390666
 GameObject:
   m_ObjectHideFlags: 0
@@ -7873,6 +7971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &2058356944
 GameObject:
   m_ObjectHideFlags: 0
@@ -8112,6 +8211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &2092488965
 GameObject:
   m_ObjectHideFlags: 0
@@ -8171,6 +8271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0
 --- !u!1 &2136129560
 GameObject:
   m_ObjectHideFlags: 0
@@ -8230,3 +8331,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerBlocked: 0
   shapeSpawned: 0
+  cubeSpawned: 0

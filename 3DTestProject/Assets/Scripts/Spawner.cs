@@ -6,10 +6,12 @@ public class Spawner : MonoBehaviour
 {
     public bool spawnerBlocked;
     public bool shapeSpawned;
+    public bool cubeSpawned;
 
     void Start() {
         spawnerBlocked = false;
         shapeSpawned = false;
+        cubeSpawned = false;
     }
 
     private void OnTriggerEnter(Collider other)

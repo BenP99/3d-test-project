@@ -6,8 +6,10 @@ public class SpawnerController : MonoBehaviour
 {
     public List<Spawner> spawners;
     public List<GameObject> shapes;
+    public GameObject cube;
     public bool spawnShape;
     public int spawnCount;
+    public float time;
     public List<GameObject> spawnedShapes;
     public bool firstShapeSpawned;
 
@@ -16,6 +18,7 @@ public class SpawnerController : MonoBehaviour
         firstShapeSpawned = false;
         spawnCount = 2;
         spawnedShapes = new List<GameObject>();
+        StartCoroutine(SpawnCube());
     }
 
     void Update() {
@@ -43,7 +46,7 @@ public class SpawnerController : MonoBehaviour
         List<Spawner> validSpawners = new List<Spawner>();
 
         foreach(Spawner sp in spawners) {
-            if(spawnShape == true && sp.spawnerBlocked == false && sp.shapeSpawned == false) {
+            if(sp.spawnerBlocked == false && sp.shapeSpawned == false && sp.cubeSpawned == false) {
                 validSpawners.Add(sp);
             }
         }
@@ -65,5 +68,14 @@ public class SpawnerController : MonoBehaviour
         spawnedShapes.Clear();
         firstShapeSpawned = false;
         spawnShape = true;
+    }
+
+    public IEnumerator SpawnCube() {
+        while(true) {
+            Spawner sp = FindValidSpawner();
+            GameObject s = Instantiate(cube, sp.gameObject.transform.position, Quaternion.identity);
+            sp.cubeSpawned = true;
+            yield return new WaitForSeconds(time);
+        }
     }
 }
