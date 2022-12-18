@@ -183,6 +183,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1148720690}
+  - {fileID: 2033515867}
+  - {fileID: 1843672211}
+  gc: {fileID: 257969773}
 --- !u!1 &56327907
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +248,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 647463446}
+  - {fileID: 1218966264}
+  - {fileID: 970599361}
+  - {fileID: 1015990313}
+  gc: {fileID: 257969773}
 --- !u!1 &62642532
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,6 +705,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1486450864}
+  - {fileID: 1357700870}
+  - {fileID: 361634701}
+  - {fileID: 597368863}
+  gc: {fileID: 257969773}
 --- !u!1 &216040885
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +771,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1496817436}
+  - {fileID: 1712051231}
+  - {fileID: 972662624}
+  - {fileID: 2043360387}
+  gc: {fileID: 257969773}
 --- !u!1 &223710657
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,6 +837,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1081754521}
+  - {fileID: 1566501182}
+  - {fileID: 1719312981}
+  - {fileID: 1594750672}
+  gc: {fileID: 257969773}
 --- !u!1 &234260506
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,6 +903,10 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1522689231}
+  - {fileID: 1543496462}
+  gc: {fileID: 257969773}
 --- !u!1 &256357895
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +1002,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &257969772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 257969774}
+  - component: {fileID: 257969773}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &257969773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257969772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab83b4f329a46c46b2cfb4a3da00924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameDefeat: 0
+--- !u!4 &257969774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257969772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 114
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &265715951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1106,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 387152589}
+  - {fileID: 1728540173}
+  - {fileID: 1738133341}
+  - {fileID: 1166159951}
+  gc: {fileID: 257969773}
 --- !u!1 &266740220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,6 +1172,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 575916588}
+  - {fileID: 1015990313}
+  - {fileID: 647463446}
+  - {fileID: 485144927}
+  gc: {fileID: 257969773}
 --- !u!1 &286571813
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,6 +1317,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 2033515867}
+  - {fileID: 1558439312}
+  - {fileID: 1004662590}
+  - {fileID: 1148720690}
+  gc: {fileID: 257969773}
 --- !u!1 &340342286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,6 +1478,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 597368863}
+  - {fileID: 1637746226}
+  - {fileID: 361634701}
+  - {fileID: 1311913790}
+  gc: {fileID: 257969773}
 --- !u!1 &361634698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,6 +1544,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 210771642}
+  - {fileID: 2092488968}
+  - {fileID: 1215755830}
+  - {fileID: 360829886}
+  gc: {fileID: 257969773}
 --- !u!1 &387152586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,6 +1610,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1316944544}
+  - {fileID: 265715954}
+  - {fileID: 730668900}
+  - {fileID: 524497222}
+  gc: {fileID: 257969773}
 --- !u!1 &389170820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1563,6 +1676,144 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1425457216}
+  - {fileID: 730668900}
+  - {fileID: 1316944544}
+  gc: {fileID: 257969773}
+--- !u!1 &389887314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 389887315}
+  - component: {fileID: 389887318}
+  - component: {fileID: 389887317}
+  - component: {fileID: 389887316}
+  m_Layer: 5
+  m_Name: RestartBTN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &389887315
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389887314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1499639118}
+  m_Father: {fileID: 1310510259}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 7}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &389887316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389887314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 389887317}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2065001459}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: RestartLvl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &389887317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389887314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &389887318
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389887314}
+  m_CullTransparentMesh: 1
 --- !u!1 &414260795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,6 +1874,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1604634122}
+  - {fileID: 1003965448}
+  - {fileID: 1107729964}
+  gc: {fileID: 257969773}
 --- !u!1 &420890036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,6 +1939,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 588803850}
+  - {fileID: 1086674332}
+  - {fileID: 429108373}
+  gc: {fileID: 257969773}
 --- !u!1 &429108370
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,6 +2004,145 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1015990313}
+  - {fileID: 1805306020}
+  - {fileID: 1218966264}
+  - {fileID: 420890039}
+  gc: {fileID: 257969773}
+--- !u!1 &464641824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 464641825}
+  - component: {fileID: 464641828}
+  - component: {fileID: 464641827}
+  - component: {fileID: 464641826}
+  m_Layer: 5
+  m_Name: MainMenuBTN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &464641825
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464641824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 491294390}
+  m_Father: {fileID: 1310510259}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -34}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &464641826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464641824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 464641827}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2065001459}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &464641827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464641824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &464641828
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464641824}
+  m_CullTransparentMesh: 1
 --- !u!1 &485144924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1803,6 +2203,90 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1777665040}
+  - {fileID: 588803850}
+  - {fileID: 266740223}
+  gc: {fileID: 257969773}
+--- !u!1 &491294389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 491294390}
+  - component: {fileID: 491294392}
+  - component: {fileID: 491294391}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &491294390
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491294389}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 464641825}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &491294391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491294389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Main Menu
+--- !u!222 &491294392
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491294389}
+  m_CullTransparentMesh: 1
 --- !u!1 &491852283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,6 +2347,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 887961307}
+  - {fileID: 524497222}
+  - {fileID: 1316944544}
+  - {fileID: 1486450864}
+  gc: {fileID: 257969773}
 --- !u!1 &515863491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1988,7 +2478,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1475190114}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -2097,6 +2587,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 491852286}
+  - {fileID: 1166159951}
+  - {fileID: 387152589}
+  - {fileID: 1215755830}
+  gc: {fileID: 257969773}
 --- !u!1 &542931653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,6 +2754,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 955011397}
+  - {fileID: 266740223}
+  - {fileID: 645963044}
+  - {fileID: 1777665040}
+  gc: {fileID: 257969773}
 --- !u!1 &582668396
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,6 +2820,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1637746226}
+  - {fileID: 1081754521}
+  - {fileID: 1677992517}
+  - {fileID: 1481079857}
+  gc: {fileID: 257969773}
 --- !u!1 &588803847
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,6 +2886,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 485144927}
+  - {fileID: 420890039}
+  - {fileID: 1015990313}
+  gc: {fileID: 257969773}
 --- !u!1 &592394211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,6 +2998,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1004662590}
+  - {fileID: 360829886}
+  - {fileID: 210771642}
+  - {fileID: 1558439312}
+  gc: {fileID: 257969773}
 --- !u!1 &627016889
 GameObject:
   m_ObjectHideFlags: 0
@@ -2545,6 +3064,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 661724423}
+  - {fileID: 1150117260}
+  - {fileID: 1532789760}
+  gc: {fileID: 257969773}
 --- !u!1 &645963041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2605,6 +3129,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1275967514}
+  - {fileID: 647463446}
+  - {fileID: 663914312}
+  - {fileID: 575916588}
+  gc: {fileID: 257969773}
 --- !u!1 &647463443
 GameObject:
   m_ObjectHideFlags: 0
@@ -2665,6 +3195,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 645963044}
+  - {fileID: 56327910}
+  - {fileID: 1481079857}
+  - {fileID: 266740223}
+  gc: {fileID: 257969773}
 --- !u!1 &660365422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,6 +3261,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1486302496}
+  - {fileID: 2083606308}
+  - {fileID: 2043360387}
+  - {fileID: 1719312981}
+  gc: {fileID: 257969773}
 --- !u!1 &661724420
 GameObject:
   m_ObjectHideFlags: 0
@@ -2785,6 +3327,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1135498409}
+  - {fileID: 627016892}
+  - {fileID: 1548480605}
+  gc: {fileID: 257969773}
 --- !u!1 &663914309
 GameObject:
   m_ObjectHideFlags: 0
@@ -2845,6 +3392,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1311913790}
+  - {fileID: 1481079857}
+  - {fileID: 1637746226}
+  - {fileID: 645963044}
+  gc: {fileID: 257969773}
 --- !u!1 &690912092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2905,6 +3458,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1166159951}
+  - {fileID: 2032737236}
+  - {fileID: 1728540173}
+  - {fileID: 1228691636}
+  gc: {fileID: 257969773}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3058,6 +3617,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 2043360387}
+  - {fileID: 1479531264}
+  - {fileID: 1712051231}
+  - {fileID: 2083606308}
+  gc: {fileID: 257969773}
 --- !u!1 &730668897
 GameObject:
   m_ObjectHideFlags: 0
@@ -3118,6 +3683,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 389170823}
+  - {fileID: 1738133341}
+  - {fileID: 387152589}
+  gc: {fileID: 257969773}
 --- !u!1 &810479250
 GameObject:
   m_ObjectHideFlags: 0
@@ -3178,6 +3748,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1650036493}
+  - {fileID: 1107729964}
+  - {fileID: 1056001808}
+  gc: {fileID: 257969773}
 --- !u!1 &850223196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3238,6 +3813,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1148720690}
+  - {fileID: 1275967514}
+  - {fileID: 1558439312}
+  - {fileID: 1532789760}
+  gc: {fileID: 257969773}
 --- !u!1 &887961304
 GameObject:
   m_ObjectHideFlags: 0
@@ -3298,6 +3879,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1107729964}
+  - {fileID: 491852286}
+  - {fileID: 1003965448}
+  - {fileID: 1650036493}
+  gc: {fileID: 257969773}
 --- !u!1 &955011394
 GameObject:
   m_ObjectHideFlags: 0
@@ -3358,6 +3945,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1532789760}
+  - {fileID: 575916588}
+  - {fileID: 1275967514}
+  - {fileID: 1150117260}
+  gc: {fileID: 257969773}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3501,6 +4094,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1481079857}
+  - {fileID: 1594750672}
+  - {fileID: 1081754521}
+  - {fileID: 56327910}
+  gc: {fileID: 257969773}
 --- !u!1 &972662621
 GameObject:
   m_ObjectHideFlags: 0
@@ -3561,6 +4160,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1760456601}
+  - {fileID: 1522689231}
+  - {fileID: 216040888}
+  gc: {fileID: 257969773}
 --- !u!1 &1003965445
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,6 +4225,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 414260798}
+  - {fileID: 1316944544}
+  - {fileID: 887961307}
+  - {fileID: 1425457216}
+  gc: {fileID: 257969773}
 --- !u!1 &1004662587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3681,6 +4291,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1543542116}
+  - {fileID: 597368863}
+  - {fileID: 1357700870}
+  - {fileID: 311722365}
+  gc: {fileID: 257969773}
 --- !u!1 &1015990310
 GameObject:
   m_ObjectHideFlags: 0
@@ -3741,6 +4357,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 266740223}
+  - {fileID: 429108373}
+  - {fileID: 56327910}
+  - {fileID: 588803850}
+  gc: {fileID: 257969773}
 --- !u!1 &1056001805
 GameObject:
   m_ObjectHideFlags: 0
@@ -3801,6 +4423,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1357700870}
+  - {fileID: 810479253}
+  - {fileID: 1543542116}
+  gc: {fileID: 257969773}
 --- !u!1 &1064045299
 GameObject:
   m_ObjectHideFlags: 0
@@ -4094,6 +4721,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 582668399}
+  - {fileID: 223710660}
+  - {fileID: 1427644306}
+  - {fileID: 970599361}
+  gc: {fileID: 257969773}
 --- !u!1 &1086674329
 GameObject:
   m_ObjectHideFlags: 0
@@ -4154,6 +4787,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 420890039}
+  - {fileID: 1605105028}
+  - {fileID: 1805306020}
+  gc: {fileID: 257969773}
 --- !u!1 &1107729961
 GameObject:
   m_ObjectHideFlags: 0
@@ -4214,6 +4852,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 887961307}
+  - {fileID: 414260798}
+  - {fileID: 810479253}
+  gc: {fileID: 257969773}
 --- !u!1 &1135498406
 GameObject:
   m_ObjectHideFlags: 0
@@ -4274,6 +4917,10 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 661724423}
+  - {fileID: 1843672211}
+  gc: {fileID: 257969773}
 --- !u!1 &1148720687
 GameObject:
   m_ObjectHideFlags: 0
@@ -4334,6 +4981,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 12384476}
+  - {fileID: 850223199}
+  - {fileID: 311722365}
+  - {fileID: 1548480605}
+  gc: {fileID: 257969773}
 --- !u!1 &1150117257
 GameObject:
   m_ObjectHideFlags: 0
@@ -4394,6 +5047,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 627016892}
+  - {fileID: 1777665040}
+  - {fileID: 955011397}
+  gc: {fileID: 257969773}
 --- !u!1 &1161488574
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,6 +5112,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 2083606308}
+  - {fileID: 1479531264}
+  - {fileID: 1269233260}
+  gc: {fileID: 257969773}
 --- !u!1 &1163746928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,6 +5256,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 524497222}
+  - {fileID: 690912095}
+  - {fileID: 265715954}
+  - {fileID: 1451557830}
+  gc: {fileID: 257969773}
 --- !u!1 &1215755827
 GameObject:
   m_ObjectHideFlags: 0
@@ -4653,6 +5322,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1486450864}
+  - {fileID: 1451557830}
+  - {fileID: 524497222}
+  - {fileID: 361634701}
+  gc: {fileID: 257969773}
 --- !u!1 &1218966261
 GameObject:
   m_ObjectHideFlags: 0
@@ -4713,6 +5388,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 56327910}
+  - {fileID: 1271719572}
+  - {fileID: 1594750672}
+  - {fileID: 429108373}
+  gc: {fileID: 257969773}
 --- !u!1 &1228691633
 GameObject:
   m_ObjectHideFlags: 0
@@ -4773,6 +5454,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1451557830}
+  - {fileID: 1486302496}
+  - {fileID: 690912095}
+  - {fileID: 1677992517}
+  gc: {fileID: 257969773}
 --- !u!1 &1237222269
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,6 +5565,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1441559035}
+  - {fileID: 1161488577}
+  - {fileID: 1623173561}
+  gc: {fileID: 257969773}
 --- !u!1 &1271719569
 GameObject:
   m_ObjectHideFlags: 0
@@ -4938,6 +5630,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1218966264}
+  - {fileID: 1385230522}
+  - {fileID: 1795305734}
+  - {fileID: 1805306020}
+  gc: {fileID: 257969773}
 --- !u!1 &1275967511
 GameObject:
   m_ObjectHideFlags: 0
@@ -4998,6 +5696,90 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 850223199}
+  - {fileID: 645963044}
+  - {fileID: 1311913790}
+  - {fileID: 955011397}
+  gc: {fileID: 257969773}
+--- !u!1 &1310510258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310510259}
+  - component: {fileID: 1310510261}
+  - component: {fileID: 1310510260}
+  m_Layer: 5
+  m_Name: LostMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1310510259
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310510258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1615594880}
+  - {fileID: 389887315}
+  - {fileID: 464641825}
+  m_Father: {fileID: 1475190114}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 407.2716, y: 447.2126}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1310510260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310510258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1310510261
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310510258}
+  m_CullTransparentMesh: 1
 --- !u!1 &1311913787
 GameObject:
   m_ObjectHideFlags: 0
@@ -5058,6 +5840,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1558439312}
+  - {fileID: 663914312}
+  - {fileID: 360829886}
+  - {fileID: 1275967514}
+  gc: {fileID: 257969773}
 --- !u!1 &1312194262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5213,6 +6001,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1003965448}
+  - {fileID: 387152589}
+  - {fileID: 389170823}
+  - {fileID: 491852286}
+  gc: {fileID: 257969773}
 --- !u!1 &1354177384
 GameObject:
   m_ObjectHideFlags: 0
@@ -5273,6 +6067,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1795305734}
+  - {fileID: 1623173561}
+  - {fileID: 1385230522}
+  gc: {fileID: 257969773}
 --- !u!1 &1357700867
 GameObject:
   m_ObjectHideFlags: 0
@@ -5333,6 +6132,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1056001808}
+  - {fileID: 210771642}
+  - {fileID: 1650036493}
+  - {fileID: 1004662590}
+  gc: {fileID: 257969773}
 --- !u!1 &1363305366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5488,6 +6293,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1738133341}
+  - {fileID: 1760456601}
+  - {fileID: 1728540173}
+  gc: {fileID: 257969773}
 --- !u!1 &1385230519
 GameObject:
   m_ObjectHideFlags: 0
@@ -5548,6 +6358,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1271719572}
+  - {fileID: 1354177387}
+  - {fileID: 2136129563}
+  gc: {fileID: 257969773}
 --- !u!1 &1425457213
 GameObject:
   m_ObjectHideFlags: 0
@@ -5608,6 +6423,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1604634122}
+  - {fileID: 389170823}
+  - {fileID: 1003965448}
+  gc: {fileID: 257969773}
 --- !u!1 &1427644303
 GameObject:
   m_ObjectHideFlags: 0
@@ -5668,6 +6488,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1677992517}
+  - {fileID: 1719312981}
+  - {fileID: 1486302496}
+  - {fileID: 1081754521}
+  gc: {fileID: 257969773}
 --- !u!1 &1441559032
 GameObject:
   m_ObjectHideFlags: 0
@@ -5728,6 +6554,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1719312981}
+  - {fileID: 1269233260}
+  - {fileID: 2083606308}
+  - {fileID: 1566501182}
+  gc: {fileID: 257969773}
 --- !u!1 &1451557827
 GameObject:
   m_ObjectHideFlags: 0
@@ -5788,6 +6620,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1215755830}
+  - {fileID: 1228691636}
+  - {fileID: 1166159951}
+  - {fileID: 2092488968}
+  gc: {fileID: 257969773}
 --- !u!1 &1452802240
 GameObject:
   m_ObjectHideFlags: 0
@@ -5818,7 +6656,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1475190114}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -5961,6 +6799,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 542931654}
+  - {fileID: 1310510259}
   - {fileID: 2065001458}
   - {fileID: 1771235575}
   - {fileID: 1452802241}
@@ -6033,6 +6872,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 709469688}
+  - {fileID: 1161488577}
+  - {fileID: 1543496462}
+  gc: {fileID: 257969773}
 --- !u!1 &1481079854
 GameObject:
   m_ObjectHideFlags: 0
@@ -6093,6 +6937,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 663914312}
+  - {fileID: 970599361}
+  - {fileID: 582668399}
+  - {fileID: 647463446}
+  gc: {fileID: 257969773}
 --- !u!1 &1486302493
 GameObject:
   m_ObjectHideFlags: 0
@@ -6153,6 +7003,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1228691636}
+  - {fileID: 660365425}
+  - {fileID: 2032737236}
+  - {fileID: 1427644306}
+  gc: {fileID: 257969773}
 --- !u!1 &1486450861
 GameObject:
   m_ObjectHideFlags: 0
@@ -6213,6 +7069,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1650036493}
+  - {fileID: 1215755830}
+  - {fileID: 491852286}
+  - {fileID: 210771642}
+  gc: {fileID: 257969773}
 --- !u!1 &1496817433
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,6 +7135,93 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1728540173}
+  - {fileID: 216040888}
+  - {fileID: 1760456601}
+  - {fileID: 2032737236}
+  gc: {fileID: 257969773}
+--- !u!1 &1499639117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1499639118}
+  - component: {fileID: 1499639120}
+  - component: {fileID: 1499639119}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1499639118
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499639117}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 389887315}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1499639119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499639117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Restart
+
+'
+--- !u!222 &1499639120
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499639117}
+  m_CullTransparentMesh: 1
 --- !u!1 &1522689228
 GameObject:
   m_ObjectHideFlags: 0
@@ -6333,6 +7282,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 972662624}
+  - {fileID: 234260509}
+  - {fileID: 1712051231}
+  gc: {fileID: 257969773}
 --- !u!1 &1532789757
 GameObject:
   m_ObjectHideFlags: 0
@@ -6393,6 +7347,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1548480605}
+  - {fileID: 955011397}
+  - {fileID: 850223199}
+  - {fileID: 627016892}
+  gc: {fileID: 257969773}
 --- !u!1 &1543496459
 GameObject:
   m_ObjectHideFlags: 0
@@ -6453,6 +7413,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1712051231}
+  - {fileID: 234260509}
+  - {fileID: 1479531264}
+  gc: {fileID: 257969773}
 --- !u!1 &1543542113
 GameObject:
   m_ObjectHideFlags: 0
@@ -6513,6 +7478,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1004662590}
+  - {fileID: 1056001808}
+  - {fileID: 2033515867}
+  gc: {fileID: 257969773}
 --- !u!1 &1548480602
 GameObject:
   m_ObjectHideFlags: 0
@@ -6573,6 +7543,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1843672211}
+  - {fileID: 1532789760}
+  - {fileID: 1148720690}
+  - {fileID: 661724423}
+  gc: {fileID: 257969773}
 --- !u!1 &1558439309
 GameObject:
   m_ObjectHideFlags: 0
@@ -6633,6 +7609,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 311722365}
+  - {fileID: 1311913790}
+  - {fileID: 597368863}
+  - {fileID: 850223199}
+  gc: {fileID: 257969773}
 --- !u!1 &1566501179
 GameObject:
   m_ObjectHideFlags: 0
@@ -6693,6 +7675,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 223710660}
+  - {fileID: 1623173561}
+  - {fileID: 1441559035}
+  - {fileID: 1795305734}
+  gc: {fileID: 257969773}
 --- !u!1 &1594750669
 GameObject:
   m_ObjectHideFlags: 0
@@ -6753,6 +7741,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 970599361}
+  - {fileID: 1795305734}
+  - {fileID: 223710660}
+  - {fileID: 1218966264}
+  gc: {fileID: 257969773}
 --- !u!1 &1604634119
 GameObject:
   m_ObjectHideFlags: 0
@@ -6813,6 +7807,10 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1425457216}
+  - {fileID: 414260798}
+  gc: {fileID: 257969773}
 --- !u!1 &1605105025
 GameObject:
   m_ObjectHideFlags: 0
@@ -6873,6 +7871,89 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1086674332}
+  - {fileID: 2136129563}
+  gc: {fileID: 257969773}
+--- !u!1 &1615594879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1615594880}
+  - component: {fileID: 1615594882}
+  - component: {fileID: 1615594881}
+  m_Layer: 5
+  m_Name: MenuTitle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1615594880
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615594879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1310510259}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0004158, y: 170}
+  m_SizeDelta: {x: 407.27, y: 38.3732}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1615594881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615594879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 32
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: YOU LOST
+--- !u!222 &1615594882
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615594879}
+  m_CullTransparentMesh: 1
 --- !u!1 &1623173558
 GameObject:
   m_ObjectHideFlags: 0
@@ -6933,6 +8014,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1566501182}
+  - {fileID: 1269233260}
+  - {fileID: 1354177387}
+  gc: {fileID: 257969773}
 --- !u!1 &1637746223
 GameObject:
   m_ObjectHideFlags: 0
@@ -6993,6 +8079,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 360829886}
+  - {fileID: 582668399}
+  - {fileID: 2092488968}
+  - {fileID: 663914312}
+  gc: {fileID: 257969773}
 --- !u!1 &1650036490
 GameObject:
   m_ObjectHideFlags: 0
@@ -7053,6 +8145,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 810479253}
+  - {fileID: 1486450864}
+  - {fileID: 887961307}
+  - {fileID: 1357700870}
+  gc: {fileID: 257969773}
 --- !u!1 &1677992514
 GameObject:
   m_ObjectHideFlags: 0
@@ -7113,6 +8211,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 2092488968}
+  - {fileID: 1427644306}
+  - {fileID: 1228691636}
+  - {fileID: 582668399}
+  gc: {fileID: 257969773}
 --- !u!1 &1694026972
 GameObject:
   m_ObjectHideFlags: 0
@@ -7252,6 +8356,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 216040888}
+  - {fileID: 1543496462}
+  - {fileID: 1522689231}
+  - {fileID: 709469688}
+  gc: {fileID: 257969773}
 --- !u!1 &1719312978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7312,6 +8422,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1427644306}
+  - {fileID: 1441559035}
+  - {fileID: 660365425}
+  - {fileID: 223710660}
+  gc: {fileID: 257969773}
 --- !u!1 &1728540170
 GameObject:
   m_ObjectHideFlags: 0
@@ -7372,6 +8488,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 265715954}
+  - {fileID: 1496817436}
+  - {fileID: 1370420356}
+  - {fileID: 690912095}
+  gc: {fileID: 257969773}
 --- !u!1 &1738133338
 GameObject:
   m_ObjectHideFlags: 0
@@ -7432,6 +8554,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 730668900}
+  - {fileID: 1370420356}
+  - {fileID: 265715954}
+  gc: {fileID: 257969773}
 --- !u!1 &1760456598
 GameObject:
   m_ObjectHideFlags: 0
@@ -7492,6 +8619,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1370420356}
+  - {fileID: 972662624}
+  - {fileID: 1496817436}
+  gc: {fileID: 257969773}
 --- !u!1 &1771235574
 GameObject:
   m_ObjectHideFlags: 0
@@ -7522,7 +8654,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1475190114}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -7631,6 +8763,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1150117260}
+  - {fileID: 485144927}
+  - {fileID: 575916588}
+  gc: {fileID: 257969773}
 --- !u!1 &1795305731
 GameObject:
   m_ObjectHideFlags: 0
@@ -7691,6 +8828,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1594750672}
+  - {fileID: 1354177387}
+  - {fileID: 1566501182}
+  - {fileID: 1271719572}
+  gc: {fileID: 257969773}
 --- !u!1 &1805306017
 GameObject:
   m_ObjectHideFlags: 0
@@ -7751,6 +8894,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 429108373}
+  - {fileID: 2136129563}
+  - {fileID: 1271719572}
+  - {fileID: 1086674332}
+  gc: {fileID: 257969773}
 --- !u!1 &1843672208
 GameObject:
   m_ObjectHideFlags: 0
@@ -7811,6 +8960,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1548480605}
+  - {fileID: 12384476}
+  - {fileID: 1135498409}
+  gc: {fileID: 257969773}
 --- !u!1 &1864293037
 GameObject:
   m_ObjectHideFlags: 0
@@ -7911,8 +9065,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: 174}
-  m_SizeDelta: {x: 357.77, y: 43.696}
+  m_AnchoredPosition: {x: 0.00021076, y: 174}
+  m_SizeDelta: {x: 407.27, y: 43.696}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1987842219
 MonoBehaviour:
@@ -8016,6 +9170,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 690912095}
+  - {fileID: 2043360387}
+  - {fileID: 1496817436}
+  - {fileID: 1486302496}
+  gc: {fileID: 257969773}
 --- !u!1 &2033515864
 GameObject:
   m_ObjectHideFlags: 0
@@ -8076,6 +9236,11 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 311722365}
+  - {fileID: 1543542116}
+  - {fileID: 12384476}
+  gc: {fileID: 257969773}
 --- !u!1 &2038390666
 GameObject:
   m_ObjectHideFlags: 0
@@ -8215,6 +9380,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 2032737236}
+  - {fileID: 709469688}
+  - {fileID: 216040888}
+  - {fileID: 660365425}
+  gc: {fileID: 257969773}
 --- !u!1 &2058356944
 GameObject:
   m_ObjectHideFlags: 0
@@ -8306,7 +9477,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058356944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6059, y: 1.204, z: -1.4915}
+  m_LocalPosition: {x: 2.3559995, y: 1.02, z: 1.083}
   m_LocalScale: {x: 1.5206722, y: 0.36292475, z: 1.3695276}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8372,7 +9543,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1475190114}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8392,8 +9563,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winMenu: {fileID: 542931653}
+  lostMenu: {fileID: 1310510258}
   sc: {fileID: 592394212}
   tc: {fileID: 1237222270}
+  gc: {fileID: 257969773}
   save: {fileID: 62642533}
   pause: 0
   timeText: {fileID: 522800796}
@@ -8459,6 +9632,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 660365425}
+  - {fileID: 1161488577}
+  - {fileID: 709469688}
+  - {fileID: 1441559035}
+  gc: {fileID: 257969773}
 --- !u!1 &2092488965
 GameObject:
   m_ObjectHideFlags: 0
@@ -8519,6 +9698,12 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 361634701}
+  - {fileID: 1677992517}
+  - {fileID: 1451557830}
+  - {fileID: 1637746226}
+  gc: {fileID: 257969773}
 --- !u!1 &2136129560
 GameObject:
   m_ObjectHideFlags: 0
@@ -8579,3 +9764,8 @@ MonoBehaviour:
   spawnerBlocked: 0
   shapeSpawned: 0
   cubeSpawned: 0
+  nearSpawners:
+  - {fileID: 1805306020}
+  - {fileID: 1385230522}
+  - {fileID: 1605105028}
+  gc: {fileID: 257969773}

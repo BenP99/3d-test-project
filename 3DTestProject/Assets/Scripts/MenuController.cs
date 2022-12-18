@@ -7,8 +7,10 @@ using UnityEngine.UI;
 public class MenuController : MonoBehaviour
 {
     public GameObject winMenu;
+    public GameObject lostMenu;
     public ScoreController sc;
     public TimeCounter tc;
+    public GameController gc;
     public SaveController save;
     public bool pause;
     public Text timeText;
@@ -18,12 +20,18 @@ public class MenuController : MonoBehaviour
     void Start()
     {
         winMenu.SetActive(false);
+        lostMenu.SetActive(false);
         pause = false;
     }
 
     void Update() {
         if(sc.score == 400) {
             ShowWinMenu();
+        }
+
+        if(gc.gameDefeat == true) {
+            lostMenu.SetActive(true);
+            pause = true;
         }
 
         if(pause == false) {
