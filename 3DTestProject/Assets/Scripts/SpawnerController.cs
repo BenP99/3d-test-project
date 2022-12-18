@@ -12,6 +12,7 @@ public class SpawnerController : MonoBehaviour
     public float time;
     public List<GameObject> spawnedShapes;
     public bool firstShapeSpawned;
+    public ScoreController sc;
 
     void Start() {
         spawnShape = true;
@@ -39,6 +40,16 @@ public class SpawnerController : MonoBehaviour
                 sp.shapeSpawned = true;
             }
             spawnShape = false;
+        }
+
+        if(sc.lvl == 1) {
+            time = 12;
+        } else if(sc.lvl == 2) {
+            time = 10;
+        } else if(sc.lvl == 3) {
+            time = 8;
+        } else if(sc.lvl == 4) {
+            time = 6;
         }
     }
 

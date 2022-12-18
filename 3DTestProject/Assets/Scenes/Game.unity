@@ -3937,9 +3937,10 @@ MonoBehaviour:
   cube: {fileID: 5567703889795706490, guid: a4bbb871cacc068449d30606026a6261, type: 3}
   spawnShape: 0
   spawnCount: 0
-  time: 10
+  time: 15
   spawnedShapes: []
   firstShapeSpawned: 0
+  sc: {fileID: 592394212}
 --- !u!4 &1069821489
 Transform:
   m_ObjectHideFlags: 0
