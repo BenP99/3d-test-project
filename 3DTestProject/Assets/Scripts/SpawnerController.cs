@@ -43,13 +43,13 @@ public class SpawnerController : MonoBehaviour
         }
 
         if(sc.lvl == 1) {
-            time = 14;
+            time = 18;
         } else if(sc.lvl == 2) {
-            time = 12;
+            time = 16;
         } else if(sc.lvl == 3) {
-            time = 10;
+            time = 14;
         } else if(sc.lvl == 4) {
-            time = 8;
+            time = 12;
         }
     }
 
